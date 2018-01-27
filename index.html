@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
+
+
+<div class="container container-fluid">
+  <div class="top">
+    <br>
+ <h2 class=" text-center ">Wikipedia Viewer</h2>
+    </div>
+  <br>
+  <div class="image text-center">
+    <img id="img" class="img-responsive" src="https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png" alt="logo">
+  </div>
+  <br>
+  <br>
+  <div class="form-group text-center">
+    <input type="text" id="txt" class="form-control" value="" placeholder="Search Here..">
+    <br>
+    <button id="btn1" type="button" class="btn btn-warning text-center">Search Wikipedia</button>
+    
+    <button id="btn2" type="button" class="btn btn-warning"><a onclick="window.open('https://en.wikipedia.org/wiki/Special:Random','_blank')">Random Search</a></button>
+  </div>
+  
+  <div class="bot">
+  <ul class="list-group">
+    <li class="list-group-item text-left"id="result"><a href="+data[3][i]+"></a></li>
+    </ul>
+    </div>
+   <hr>
+    <div class="well text-center"id="botlink">
+      <p>Designed and Coded By <b><a href="https://codepen.io/rishabhgupta/" target="_blank">Rishabh Gupta</a></b></p>
+      </div>
+  <hr>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
